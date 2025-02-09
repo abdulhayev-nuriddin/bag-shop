@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container1 {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-left: 200px;
+    background-color: #2F2F2F;
+    width: 1519px;
+    height: 800px;
+
+
+}
+
+
+.rasm {
+
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+
+}
+
+.yuel {
+
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    margin-left: 483px;
+
+
+}
+
+.liy {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+
+
+
+}
+
+.link {
+
+    text-decoration: none;
+    color: grey;
+
+}
+
+
+
+h3 {
+
+    margin: 205px;
+    color: #F59B00;
+    margin-left: 20px;
+    margin: 0;
+
+}
+
+h1 {
+
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+
+p {
+    color: white;
+    margin: 25px;
+    margin-left: 20px;
+
+}
+
+
+.shop-now {
+
+    display: inline-block;
+    background-color: #F59B00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 90px;
+
+}
+
+.join-shop {
+
+    display: inline-block;
+    background-color: #F59B00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+
+.shop-now:hover {
+    background-color: #FFC107;
+    color: #000;
+    cursor: pointer;
+}
+
+
+.join-shop:hover {
+    background-color: #FFC107;
+    color: #000;
+    cursor: pointer;
+
+}
+
+
+.girl {
+
+    margin-top: 1px;
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    top: -50px;
+    margin-top: 111px;
+    padding-top: -100px;
+
+}
+
+
+.orqafon {
+
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+
+    top: -60px;
+    margin-top: 111px;
+    padding-top: -111px;
+
+
+}
+
+.rasmlar {
+
+    display: inline-block;
+
+
+}
+
+.strelka {
+
+    display: inline-block;
+    margin-top: 45px;
+
+}
+
+.imgpic {
+
+    display: inline-block;
+
+}
+
+/* section2 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 {
+    margin-top: 100px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.s2ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    gap: 30px;
+}
+
+.li1 a {
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s;
+    margin: 80px;
+}
+
+.li1 a:hover {
+    color: orange;
+}
+
+.li2 img {
+    width: 264px;
+    height: 306px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.li2 img:hover {
+    transform: scale(1.1);
+}
+
+.li1:nth-child(2) a {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+}
+
+#section1,
+#section2 {
+    position: relative;
+    /* Tabiiy oqimni saqlash */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* To'liq kenglik */
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1149px;
+}
+
+/* section 3 */
+
+
+
+.container3 {
+
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+
+}
+
+.images img {
+
+    width: 829.22px;
+    height: 646px;
+
+}
+
+.text-content {
+
+    display: inline-block;
+    padding-left: 200px;
+
+}
+
+.s3h1 {
+    color: black;
+}
+
+.s3p {
+    color: #000;
+}
+
+.text-content h3 {
+
+    color: #ff9900;
+
+}
+
+.text-content a {
+
+    text-decoration: none;
+    background-color: #e68a00;
+    border: 10px solid #e68a00;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.text-content a:hover {
+
+    background-color: #ffb587;
+    color: black;
+    border: 10px solid #ffb587;
+
+}
+
+/* section 4  */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+}
+
+.container4 {
+    text-align: center;
+
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.product-item image {
+    width: 300px;
+    height: 275px;
+
+
+}
+
+.product-item img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.product-item {
+    width: 23%;
+
+}
+
+.s4h1 {
+    color: #000;
+    size: 31px;
+}
+
+.s4p {
+    color: #000;
+}
+
+/* section 5  */
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.container5 {
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.rasm-sektori {
+
+    float: left;
+
+    background-color: #807d7d;
+    width: 50%;
+    height: 800px;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.havola {
+    margin-top: 250px;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+    background-color: #F59B00;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.havola:hover {
+    background-color: #7d5007;
+}
+
+
+.s5h1 {
+
+    color: white;
+    margin-top: 200px;
+    margin-left: -111;
+    display: inline-block;
+
+
+}
+
+.text-sektori {
+
+
+    width: 50%;
+    display: inline-block;
+    background: #2F2F2FF2;
+    width: 50%;
+    height: 100%;
+
+}
+
+label {
+
+    color: white;
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+.bag {
+
+    margin-top: 130px;
+    margin-left: 100px;
+
+}
+
+.short1 {
+
+    margin-top: 44px;
+    width: 232px;
+    height: 54px;
+    border-radius: 10px;
+    margin-left: 23px;
+
+}
+
+.short2 {
+
+    margin-top: 44px;
+    width: 232px;
+    height: 54px;
+    border-radius: 10px;
+
+    margin: 50px;
+}
+
+.tall {
+    margin-top: 30px;
+    width: 514px;
+    height: 54px;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #2F2F2FF2;
+}
+
+.galichka {
+    background-color: #2F2F2F;
+}
+
+/* section 6 */
+
+
+.container6 {
+    margin: 0 auto;
+    margin-top: -5px;
+    padding: 0 226px;
+    background-color: #2F2F2F;
+    width: 100%;
+    height: 300px;
+}
+
+footer {
+    background-color: #2F2F2FEB;
+}
+
+.s6ul {
+    list-style: none;
+    transition: 0.3s ease;
+}
+
+.s6ul:hover {
+    left: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 70px;
+
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.s6logo {
+    margin-top: 100px;
+}
+
+.s6a {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: normal;
+    position: relative;
+
+    display: inline-block;
+}
+
+.s6a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #F59B00;
+    position: absolute;
+    left: 100%;
+    bottom: -5px;
+    width: 0;
+    transition: width 0.4s ease, left 0.4s ease;
+}
+
+.s6a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.s6a:not(:hover)::after {
+    left: 0;
+    width: 0;
+}
+
+
+
+.s6link {
+    background-color: #F59B00;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+}
+
+.s6link:hover {
+    background-color: #7d5007;
+}
+
+.s6input {
+    width: 264px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #2F2F2FEB;
+}
